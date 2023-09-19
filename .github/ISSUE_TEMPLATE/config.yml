@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PayPal Developer Tools Support Issues
+    url: https://github.com/paypal-examples/paypaldevsupport/issues/new/choose
+    about: Please file all developer tools related issues here

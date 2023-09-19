@@ -1,0 +1,51 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: Describe-the-Issue
+    attributes:
+      label: Describe the Issue
+      description: A high-level summary or description of the problem that you're facing.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: A list of steps that can be followed to recreate the issue.
+      placeholder: |
+        1. Right-click on the browser and select Inspect.
+        2. Go to the console tab
+        3. See error message...
+    validations:
+      required: true
+  - type: input
+    id: operating-systems
+    attributes:
+      label: What type of Operating System are you seeing the problem on?
+      placeholder: "Linux/Windows/Mac"
+    validations:
+      required: false
+  - type: input
+    id: browsers
+    attributes:
+      label: What type of browser are you seeing the problem on?
+      placeholder: "Firefox/Chrome/Safari/Microsoft Edge"
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Screenshots or Videos
+      description: | 
+        If you are reporting a UI based issue, please include screenshots or a short video to help visually explain the problem.
+        Ensure that the screenshots/videos are full screen and do not contain any sensitive information such as API keys or Access Tokens. 
+    validations:
+      required: false

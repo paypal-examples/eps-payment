@@ -16,6 +16,7 @@
       "onAutoForward": "openBrowser"
     }
   },
+
   "secrets": {
     "CLIENT_ID": {
       "description": "Sandbox client ID of the application.",
